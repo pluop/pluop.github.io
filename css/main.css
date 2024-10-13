@@ -1,0 +1,187 @@
+@font-face {
+  font-family: Arial;
+  src: url(/src/fonts/arial.ttf);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+a{
+    color:white;
+}
+
+/*PAGE D'ACCUEIL*/
+#homepage{
+    height: 100vh;
+    background-color: white;
+}
+
+#nom-homepage{
+    margin-top: -40px;
+    margin-left: 20px;
+    font-size: 4em;
+
+}
+
+/*BOUTONS LANGUES*/
+.language-switcher {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+    mix-blend-mode: difference;
+  }
+  
+  .language-switcher button {
+    margin: .5px;
+    padding: 10px 1px;
+    background: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  .language-switcher button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+  }
+
+/*CONTENANT DES TITRES*/
+#title-container {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
+    color: white;
+    mix-blend-mode: difference;
+}
+/*TITRES*/
+#title-container h1 {
+    margin: 0;
+    font-size: 4em;
+    font-weight:normal;
+}
+/*DESCRIPTION SOUS TITRE*/
+#title-container p {
+    margin: 5px 0;
+    font-size: 2em;
+    font-weight: normal;
+}
+
+/*LISTE DES PROJETS*/
+#project-list {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 10;
+    max-width: 600px;
+    overflow-x: auto;
+    color: white;
+    mix-blend-mode: difference;
+    font-size: .75em;
+}
+/*TABLEAU DES PROJETS*/
+#project-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+/*TEXTE DU TABLEAU*/
+#project-list td {
+    padding: 4px;
+    text-align: left;
+}
+/*EFFETS DE HOVER*/
+#project-list tr:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+}
+
+.content{
+    position:relative;
+}
+
+/*REGLES D'IMAGES / VIDEOS*/
+.myVideo, .image {
+  position: relative;
+  display: block;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+} 
+
+/*CONTENANT DES MEDIAS*/
+
+
+/*TEXTES DESCRIPTIFS*/
+.custom-text {
+    position: absolute;
+    width:75vw;
+    color: white;
+    mix-blend-mode: difference;
+    text-align: center;
+    font-size: 1em;
+    z-index: 2;
+
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  /*TEXTES INDIVIDUELS*/
+
+  /*COURONNE VERTÉBRALE*/
+  .intro{
+    width:65vw;
+    top: 70%;
+    text-align: center;
+  }
+  .text1 {
+    top: 95%;
+  }
+  /*NEURO JAVA*/
+  .text2 {
+    top: 31%;
+  }
+  /*DIMANCHE 10:30*/
+  .text3 {
+    top: 29%;
+  }
+  /*SEEKING BOREDOM*/
+  .text5 {
+    top: 28.5%;
+  }
+  /*SIMILARITIES IN SOUND*/
+  .text6 {
+    top: 45%;
+  }
+  /*SIMILARITIES IN SOUNDS LIEN*/
+  .text12 {
+    top: 73%;
+    font-size: 4em;
+  }
+  /*10 ANS D'ESPORT*/
+  .text7 {
+    top: 50%;
+  }
+  /*MERCEDES 300SL*/
+  .text8 {
+    top: 31.5%;
+  }
+  /*FROM KENNEWICK WITH LOVE*/
+  .text9 {
+    top: 16.5%;
+  }
+  /*FROM KENNEWICK WITH LOVE PT.2*/
+  .text10 {
+    top: 38%;
+  }
+ /*AIR YEEZY 2*/
+ .text11 {
+    top: 80%;
+  }
